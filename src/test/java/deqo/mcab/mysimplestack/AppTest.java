@@ -20,5 +20,8 @@ public class AppTest
 
     @Test
     public void main() {
+        App app =new App ();
+
+        app.main(new String[2]);
     }
 }

@@ -32,7 +32,7 @@ public class SimpleStackTest {
         stack.peek();
     }
     @Test
-    public void peek2() {
+    public void testpush_peek2() {
         stack.push(item);
         assertEquals("peek(push item,empty)=item",stack.peek().getId(),item.getId());
     }
